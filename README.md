@@ -1,40 +1,40 @@
 # scrappingMetaData
 
-Server Deployment Document for x-SIM Backend
-
-Require Software:
-
-GIT
-Nodejs:  10+
-NPM: 6+
-PM2: 4+
-
-Take clone: 
-Run command for install required packages
-npm i 
-
-Run Command for running the project 
-
-npm start
-
-Scrapping API Details:
-
-URL:http://localhost:3000/scrap
-Method: POST
-data:    JSON.stringify({"url":"https://www.amazon.in/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles"}),
-headers: { 'Content-Type': 'application/json' },
-
+Server Deployment Document for x-SIM Backend<br>
+<br>
+Require Software:<br>
+<br>
+GIT<br>
+Nodejs:  10+<br>
+NPM: 6+<br>
+PM2: 4+<br>
+<br>
+Take clone: <br>
+Run command for install required packages<br>
+npm i <br>
+<br>
+Run Command for running the project <br>
+<br>
+npm start<br>
+<br>
+Scrapping API Details:<br>
+<br>
+URL:http://localhost:3000/scrap<br>
+Method: POST<br>
+data:    JSON.stringify({"url":"https://www.amazon.in/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles"}),<br>
+headers: { 'Content-Type': 'application/json' },<br>
+<br>
 ------------------------------
-
-Output:
-
-{
-    "status": true,
-    "result": {
-        "title": "Mobile Phones: Buy New Mobiles Online at Best Prices in India | Buy Cell Phones Online - Amazon.in",
-        "description": "Amazon.in: Buy Best Mobile Phones online at Best prices in India at Amazon.in. Browse mobile phones from popular brands including Samsung, Micromax, Apple, HTC, Sony, Nokia, Motorola and more at Amazon.in.COD, Discounts available on eligible purchases.",
-        "ogTitle": "Mobile Phones: Buy New Mobiles Online at Best Prices in India | Buy Cell Phones Online - Amazon.in",
-        "images": [
+<br>
+Output:<br>
+<br>
+{<br>
+    "status": true,<br>
+    "result": {<br>
+        "title": "Mobile Phones: Buy New Mobiles Online at Best Prices in India | Buy Cell Phones Online - Amazon.in",<br>
+        "description": "Amazon.in: Buy Best Mobile Phones online at Best prices in India at Amazon.in. Browse mobile phones from popular brands including Samsung, Micromax, Apple, HTC, Sony, Nokia, Motorola and more at Amazon.in.COD, Discounts available on eligible purchases.",<br>
+        "ogTitle": "Mobile Phones: Buy New Mobiles Online at Best Prices in India | Buy Cell Phones Online - Amazon.in",<br>
+        "images": [<br>
             "//fls-eu.amazon.in/1/batch/1/OP/A21TJRUUN4KGV:258-3457140-3136326:MGVA52V5F0ZTDMNDP3EH$uedata=s:%2Fmn%2Fsearch%2Fuedata%2F258-3457140-3136326%3Fstaticb%26id%3DMGVA52V5F0ZTDMNDP3EH:0",
             "https://images-na.ssl-images-amazon.com/images/G/31/gno/sprites/nav-sprite-global_bluebeacon-V3-1x_optimized._CB468962293_.png",
             "https://images-eu.ssl-images-amazon.com/images/G/31/img19/MAI/Sweepstakes/June20/SWM_DownloadApp._CB410314483_.jpg",
@@ -140,7 +140,8 @@ Output:
             "https://images-eu.ssl-images-amazon.com/images/I/41net0QeTqL._AC_US160_.jpg",
             "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._CB485935036_.gif",
             "https://images-eu.ssl-images-amazon.com/images/G/31/nav2/images/gui/prime-check-badge-14._CB485947259_.gif",
-            "https://images-eu.ssl-images-amazon.com/images/G/31/personalization/ybh/loading-4x-gray._CB485916689_.gif"
-        ]
-    }
-}
+            "https://images-eu.ssl-images-amazon.com/images/G/31/personalization/ybh/loading-4x-gray._CB485916689_.gif"<br>
+        ]<br>
+    }<br>
+}<br>
+<br>
